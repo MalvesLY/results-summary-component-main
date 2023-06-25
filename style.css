@@ -12,16 +12,48 @@ body {
 }
 summary {
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 10px;
-    height: 50vh;
-    width: 22vw;
+    border-radius: 25px;
+    height: 55vh;
+    width: 17vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
 }
 summary #your-result {
-    font: 500 1em Hanken Grotesk, sans-serif;
-    color: hsla(0, 0%, 100%, 0.644);
+    font: 500 0.9em Hanken Grotesk, sans-serif;
+    color: hsl(241, 100%, 89%);
+    padding: 10%;
+}
+summary section {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+}
+summary section p span {
+    font: 800 4em Hanken Grotesk, sans-serif;
+    color: hsl(221, 100%, 96%);
+}
+summary section p {
+    font: 500 0.75em Hanken Grotesk, sans-serif;
+    color: hsla(241, 100%, 89%, 0.527);
+}
+summary #great span {
+    font: 500 1.5em Hanken Grotesk, sans-serif;
+    color: hsl(221, 100%, 96%);
+    line-height: 7vh;
+}
+summary #great {
+    font: 500 0.75em Hanken Grotesk, sans-serif;
+    color: hsla(241, 100%, 89%);
+    padding: 10%;
 }
 footer {
     position: absolute;
