@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Results summary component</title>
@@ -12,13 +15,11 @@
 <body>
     <details>
         <summary>
-            <div>
-                <p>Your Result</p>
-                <section>
-                    <p><span>76</span>of 100</p>
-                    </section>
-                <p><span>Great</span>You scored higher than 65% of the people who have taken these tests.</p>
-            </div>
+            <p id="your-result">Your Result</p>
+            <section>
+                <p><span>76</span>of 100</p>
+            </section>
+            <p id="great"><span>Great</span>You scored higher than 65% of the people who have taken these tests.</p>
         </summary>
         <div>
             <p>Summary</p>
@@ -47,6 +48,7 @@
     </details>
 </body>
 <footer class="attribution">
-    Desafio de <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Escrito por <a href="https://github.com/MalvesLY">Matheus Alves</a>.
+    Desafio de <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
+    Escrito por <a href="https://github.com/MalvesLY">Matheus Alves</a>.
 </footer>
 </html>
