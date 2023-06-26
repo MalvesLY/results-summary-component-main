@@ -2,13 +2,17 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-  }  
+}
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
+}
+details {
+    display: flex;
+    flex-direction: row;
 }
 summary {
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -54,6 +58,10 @@ summary #great {
     font: 500 0.75em Hanken Grotesk, sans-serif;
     color: hsla(241, 100%, 89%);
     padding: 10%;
+}
+div {
+    background-color: white;
+    border-radius: 25px;
 }
 footer {
     position: absolute;
