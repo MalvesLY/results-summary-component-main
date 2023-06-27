@@ -24,6 +24,7 @@ summary {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.459);
 }
 summary #your-result {
     font: 500 0.9em Hanken Grotesk, sans-serif;
@@ -61,7 +62,9 @@ summary #great {
 }
 div {
     background-color: white;
+    border: 1px solid black;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.459);
 }
 footer {
     position: absolute;
