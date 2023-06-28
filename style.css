@@ -64,6 +64,47 @@ div {
     height: 55vh;
     width: 17vw;
 }
+div #summary {
+    font: 700 1em Hanken Grotesk, sans-serif;
+    color: black;
+}
+div .reaction {
+    background-color: hsla(0, 100%, 67%, 0.200);
+    align-items: center;
+}
+div #reaction {
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: hsl(0, 100%, 67%);
+}
+div .memory {
+    background-color: hsla(39, 100%, 56%, 0.200);
+}
+div #memory {
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: hsl(39, 100%, 56%);
+}
+div .verbal {
+    background-color: hsla(166, 100%, 37%, 0.200);
+}
+div #verbal {
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: hsl(166, 100%, 37%);
+}
+div .visual {
+    background-color: hsla(234, 85%, 45%, 0.200);
+}
+div #visual {
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: hsl(234, 85%, 45%);
+}
+div .points {
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: rgba(100, 100, 100, 0.200);
+}
+div .points span {
+    font: 700 1em Hanken Grotesk, sans-serif;
+    color: rgba(100, 100, 100, 1);
+}
 footer {
     position: absolute;
     bottom: 0;
