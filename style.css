@@ -7,12 +7,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    position: relative;
 }
 details {
-    display: flex;
-    flex-direction: row;
+    display: contents;
 }
 summary {
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -24,7 +21,7 @@ summary {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.459);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.274);
 }
 summary #your-result {
     font: 500 0.9em Hanken Grotesk, sans-serif;
@@ -62,9 +59,10 @@ summary #great {
 }
 div {
     background-color: white;
-    border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.459);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.144);
+    height: 55vh;
+    width: 17vw;
 }
 footer {
     position: absolute;
