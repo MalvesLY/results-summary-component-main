@@ -5,3 +5,13 @@ box-sizing: border-box;}
 
 ul {
 list-style: none;}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  

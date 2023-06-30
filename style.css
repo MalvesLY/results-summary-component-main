@@ -63,50 +63,80 @@ div {
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.144);
     height: 55vh;
     width: 17vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
 }
 div #summary {
     font: 700 1em Hanken Grotesk, sans-serif;
     color: black;
+    margin: 0 5%;
 }
 div .reaction {
     background-color: hsla(0, 100%, 67%, 0.200);
-    display: flex;
+    display:flex;
+    padding: 5%;
+    margin: 0 5%;
+    border-radius: 10px;
 }
 div #reaction {
     font: 500 1em Hanken Grotesk, sans-serif;
     color: hsl(0, 100%, 67%);
+    flex: auto;
 }
 div .memory {
     background-color: hsla(39, 100%, 56%, 0.200);
     display: flex;
+    padding: 5%;
+    margin: 0 5%;
+    border-radius: 10px;
 }
 div #memory {
     font: 500 1em Hanken Grotesk, sans-serif;
     color: hsl(39, 100%, 56%);
+    flex: auto;
 }
 div .verbal {
     background-color: hsla(166, 100%, 37%, 0.200);
-    display:flex;
+    display: flex;
+    padding: 5%;
+    margin: 0 5%;
+    border-radius: 10px;
 }
 div #verbal {
     font: 500 1em Hanken Grotesk, sans-serif;
     color: hsl(166, 100%, 37%);
+    flex: auto;
 }
 div .visual {
     background-color: hsla(234, 85%, 45%, 0.200);
     display: flex;
+    padding: 5%;
+    margin: 0 5%;
+    border-radius: 10px;
 }
 div #visual {
     font: 500 1em Hanken Grotesk, sans-serif;
     color: hsl(234, 85%, 45%);
+    flex: auto;
 }
 div .points {
     font: 500 1em Hanken Grotesk, sans-serif;
-    color: rgba(100, 100, 100, 0.200);
+    color: rgba(100, 100, 100, 0.562);
 }
 div .points span {
     font: 700 1em Hanken Grotesk, sans-serif;
-    color: rgba(100, 100, 100, 1);
+    color: rgb(100, 100, 100);
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    font: 500 1em Hanken Grotesk, sans-serif;
+    color: white;
+    padding: 5%;
+    margin: 0 5%;
+    border-radius: 30px;
+    width: 90%;
 }
 footer {
     position: absolute;
