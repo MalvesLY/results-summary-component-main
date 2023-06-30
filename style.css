@@ -70,7 +70,7 @@ div #summary {
 }
 div .reaction {
     background-color: hsla(0, 100%, 67%, 0.200);
-    align-items: center;
+    display: flex;
 }
 div #reaction {
     font: 500 1em Hanken Grotesk, sans-serif;
@@ -78,6 +78,7 @@ div #reaction {
 }
 div .memory {
     background-color: hsla(39, 100%, 56%, 0.200);
+    display: flex;
 }
 div #memory {
     font: 500 1em Hanken Grotesk, sans-serif;
@@ -85,6 +86,7 @@ div #memory {
 }
 div .verbal {
     background-color: hsla(166, 100%, 37%, 0.200);
+    display:flex;
 }
 div #verbal {
     font: 500 1em Hanken Grotesk, sans-serif;
@@ -92,6 +94,7 @@ div #verbal {
 }
 div .visual {
     background-color: hsla(234, 85%, 45%, 0.200);
+    display: flex;
 }
 div #visual {
     font: 500 1em Hanken Grotesk, sans-serif;
