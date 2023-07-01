@@ -15,12 +15,12 @@ summary {
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 25px;
     height: 55vh;
-    width: 17vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.274);
 }
 summary #your-result {
@@ -30,8 +30,8 @@ summary #your-result {
 }
 summary section {
     background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    width: 20vh;
-    height: 20vh;
+    width: 22vh;
+    height: 22vh;
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ summary section p {
     color: hsla(241, 100%, 89%, 0.527);
 }
 summary #great span {
-    font: 500 1.5em Hanken Grotesk, sans-serif;
+    font: 500 1.4em Hanken Grotesk, sans-serif;
     color: hsl(221, 100%, 96%);
     line-height: 7vh;
 }
@@ -62,14 +62,14 @@ div {
     border-radius: 25px;
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.144);
     height: 55vh;
-    width: 17vw;
+    width: 20vw;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     
 }
 div #summary {
-    font: 700 1em Hanken Grotesk, sans-serif;
+    font: 800 larger Hanken Grotesk, sans-serif;
     color: black;
     margin: 0 5%;
 }
@@ -127,7 +127,7 @@ div .points {
 }
 div .points span {
     font: 700 1em Hanken Grotesk, sans-serif;
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
 }
 button {
     background-color: hsl(224, 30%, 27%);
