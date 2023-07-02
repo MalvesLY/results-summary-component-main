@@ -62,3 +62,24 @@
         font-size: larger;
     }
 }
+@media screen and (max-height: 700px) {
+    summary #your-result {
+        font-size: small;
+    }
+    summary section {
+        width: 19vh;
+        height: 19vh;
+    }
+    summary section p {
+        font-size: small;
+    }
+    summary #great {
+        font-size: small;
+    }
+    div {
+        height: 53vh;
+    }
+    div #summary {
+        font-size: medium;
+    }
+}
