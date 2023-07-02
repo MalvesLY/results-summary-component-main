@@ -83,3 +83,35 @@
         font-size: medium;
     }
 }
+@media screen and (max-height: 500px) and (max-width: 900px) and (orientation: landscape) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    details {
+        display: contents;
+    }
+    summary {
+        width: 25vw;
+        height: 65vh;
+        border-radius: 25px;
+    }
+    summary #summary {
+        font-size: small;
+    }
+    summary section {
+        width: 20vh;
+        height: 20vh
+    }
+    summary section p {
+        font-size: xx-small;
+    }
+    summary #great {
+        font-size: 0.7em;
+    }
+    div {
+        width: 25vw;
+        height: 65vh;
+    }
+}
